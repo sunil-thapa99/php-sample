@@ -1,0 +1,131 @@
+/*
+	UN id: 17421492
+*/
+*{
+	margin: 0;padding: 0;
+	font-family: 'Arimo', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+header{
+	width: 100%;
+	background: #eee;
+	padding-top: 1em;
+	display: inline-flex;
+}
+main {
+	min-height: 50vh; 
+	width: 80%; 
+	display: table; 
+	margin: auto; 
+	box-shadow: 0px 0px 10px #888; 
+	color:#444;
+}
+
+#welcomeMsg{
+	width: 75%;
+	flex-direction: row;
+	padding-left: 1em;
+	position: relative;
+}
+#welcomeMsg a{
+	width: auto;
+	text-align: left;
+	color: #DB4437;
+}
+#headerDiv{
+	width: 25%;
+	flex-direction: row;
+	display: inline-flex;
+	position: relative;
+}
+#adminName{
+	width: 75%;
+	padding-right: 5px; 
+	text-align: right;
+	text-decoration: none;
+	color: #DB4437;
+}
+#headerDiv a{
+	font-size: 20px;
+	font-weight: bold;
+	color: #DB4437;
+}
+nav{
+	padding-top: 20px;
+	width: 20%;
+	background: #70ABBE;
+	display: table-cell;
+	border-right: 4px solid black;
+}
+article{
+	padding-top: 20px;
+	width:auto;
+	margin: 0 auto;
+	background: #70ABBE;
+	display: table-cell;
+}
+nav h3{
+	padding: 5px;
+	text-align: center;
+	border-bottom: 0.1em groove #ddd;
+}
+li{
+	text-align: center;
+	padding: 5px;
+	font-weight: bold;
+	border-bottom: 0.2em groove #ddd;
+}
+li a{
+	color: #444;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+    color: #444;
+}
+#button{
+	margin: 20px;
+	width: auto;
+	height: 40px;
+	margin-right: 15px;
+	display: inline-flex;
+}
+input[type="submit"]{
+	font-weight: bold;
+	font-size: 15px;
+	margin:0 10px;
+	flex-direction: row;
+	padding:10px;
+	border: 1px solid #333;
+	color: #333;
+	cursor: pointer;
+}
+
+button{
+	font-weight: bold;
+	font-size: 15px;
+	margin:10px;
+	flex-direction: row;
+	padding:10px;
+	border: 1px solid #333;
+	color: #333;
+	cursor: pointer;
+}
+#addform, #selectEditform, #selectdeleteform, #editform{
+	display: none;
+}
+label, input, textarea, select{
+	margin: 20px;
+	font-weight: bold;
+}
+/*Backend navigation styling*/
+#topNav {width: 100%; background-color: #333; overflow: auto;}
+#topNav ul {width: 1000px; margin: auto; display: block; list-style-type: none;}
+#topNav ul li {width: 20%; float: left; overflow: auto; text-align: center; border-right: 2px groove #eee;}
+#topNav a {color: white; padding-top: 10px; display: block; text-decoration: none;}

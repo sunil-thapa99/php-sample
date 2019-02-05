@@ -1,0 +1,90 @@
+/*
+	UN id: 17421492
+*/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Oswald', sans-serif;
+}
+body{
+	background: #778baf;
+}
+/*Login page back to directory styling*/
+#goBack{
+	float: right;
+	font-size: 20px;
+	margin: 15px;
+}
+/*Login form styling*/
+.loginBox{
+	width: 250px;
+	height: auto;
+	padding: 10px 15px;
+	top: 30%;
+	left: 40%;
+	position: absolute;
+	background: #BABABA;
+}
+#loginTitle{
+	color: #B5240B;
+	text-align: center;
+}
+.loginBox, input{
+	border-radius: 5px;
+}
+input{
+	width: 95%;
+	height: 30px;
+	padding: 5px;
+	margin: 5px auto;
+	position: relative;
+
+}
+#username, #password{
+	text-align: left;
+}
+/*username and password on focus*/
+#username:focus, #password:focus{
+	border:solid #F46B7E; 
+}
+#forgetPass{
+	text-decoration: none;
+	font-weight: bold;
+	float: right;
+}
+#forgetPass:hover{
+	text-decoration: underline;
+	text-shadow: 1px 1px 1px #111;
+}
+input[type="radio"]{
+	width: 20px;
+}
+input[type="submit"]{
+	width: 100%;
+	height: 50px;
+	border: 0;
+	font-size: 20px;
+	cursor: pointer;
+	font-weight: bold;
+	outline: none;
+	background: #6D79DE;
+	color: #efefef;
+}
+.empty{
+	animation: emptyField 1s;
+}
+/*Animation of input form*/
+@keyframes emptyField{
+	33%{
+		transform: translateX(-10px);
+		transition: transform ease-in-out;
+	}
+	66%{
+		transform: translateX(10px);
+		transition: transform ease-in-out;
+	}
+	100%{
+		transform: translateY(0px);
+		transition: transform ease-in-out;
+	}
+}		
